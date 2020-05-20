@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>フォーム</title>
+</head>
+<body>
+<form action="form"method="get">
+名前:<input type="text" name="name"><br>
+性別:<br>
+男<input type="radio" name="gender" value="0" checked>
+女<input type="radio" name="gender" value="1">
+<br>
+<input type="checkbox" name="mail" value="1">メールマガジン登録<br>
+都道府県
+<select name="ken">
+<option value="kumamoto">熊本</option>
+<option value="fukuoka">福岡</option>
+<option value="nagasaki">長崎</option>
+</select>
+
+お問い合わせ内容<br>
+<textarea name="body"></textarea><br>
+
+<input type="hidden" name="gamen" value="a1">
+
+<input type="submit"value="送信"><br>
+</form>
+</body>
+</html>

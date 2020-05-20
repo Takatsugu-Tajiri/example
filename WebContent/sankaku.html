@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>三角形の面積</title>
+</head>
+<body>
+<form action="sankaku"method="get">
+ 底辺:<input type="text" name="teihen"><br>
+ 高さ:<input type="text" name="takasa"><br>
+<input type="submit"value="送信"><br>
+</form>
+
+<a href="sankaku?teihen=8&takasa=4">面積表示</a>
+<form action="sankaku"method="get">
+<input type="hidden" name="teihen" value="8">
+<input type="hidden" name="takasa" value="4">
+<input type="submit"value="送信"><br>
+</form>
+
+</body>
+</html>
