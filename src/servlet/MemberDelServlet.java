@@ -45,6 +45,7 @@ public class MemberDelServlet extends HttpServlet {
 
 		dao.delete(mid);
 
+
 		response.sendRedirect("mlist");
 	}
 

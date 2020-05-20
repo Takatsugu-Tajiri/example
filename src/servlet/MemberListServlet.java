@@ -69,6 +69,7 @@ public class MemberListServlet extends HttpServlet {
 
 			response.sendRedirect("mlist");
 			}catch(Exception e) {
+
 				request.setAttribute("mes",e.getMessage());
 				request.setAttribute("url","mlist");
 

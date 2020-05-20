@@ -22,7 +22,6 @@
 		<td><a href="mupdate?mid=${member.mid}">${member.name}</a></td>
 		<td>${member.adr}</td>
 
-
 	</tr>
 </c:forEach>
 
